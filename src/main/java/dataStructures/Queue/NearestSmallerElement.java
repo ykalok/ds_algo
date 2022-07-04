@@ -2,8 +2,6 @@ package dataStructures.Queue;
 
 import java.util.Stack;
 
-import dataStructures.Stack.NextSmallestElement;
-
 public class NearestSmallerElement {
 
 
