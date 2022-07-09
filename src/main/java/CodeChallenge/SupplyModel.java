@@ -4,8 +4,8 @@ public class SupplyModel {
 	private String orderId;
 	private String time;
 	private String produce;
-	private String price;
-	private String quantity;
+	private int price;
+	private int quantity;
 	public String getOrderId() {
 		return orderId;
 	}
@@ -24,17 +24,18 @@ public class SupplyModel {
 	public void setProduce(String produce) {
 		this.produce = produce;
 	}
-	public String getPrice() {
+	public int getPrice() {
 		return price;
 	}
-	public void setPrice(String price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
-	public String getQuantity() {
+	public int getQuantity() {
 		return quantity;
 	}
-	public void setQuantity(String quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
+	
 
 }
